@@ -1,0 +1,51 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("src/assets/mainBackground.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.colorText {
+    background-image: linear-gradient(to left, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
+ }   
+
+  .pressText {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+  }
+
+  .unselectableText {
+    -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+  }
+  
+
+  .pressMeButton {
+    background: none;
+    border: none;    
+    cursor: pointer;
+
+    .img {
+        max-width: 30vw;
+        max-height: 300px;
+      }
+  } 
