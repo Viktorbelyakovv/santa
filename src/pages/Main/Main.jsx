@@ -14,7 +14,7 @@ const Main = () => {
         </div>
         <div>            
             <button onClick={handleLinkClick} className={styles.pressMeButton}>                
-                <img className={styles.img} src={"src/assets/gift.gif"}/>
+                <img className={styles.img} src={"/assets/gift.gif"}/>
                 </button>
         </div>
         <div className={classNames(styles.pressText, styles.colorText,  styles.unselectableText)}>Нажми на подарок!</div>
